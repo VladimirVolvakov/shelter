@@ -365,14 +365,86 @@ h3 {
     align-items: center;
 }
 
-.list-item .text {
+h4 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 23px;
     letter-spacing: 0.06em;
+    color: #545454; 
+    margin: 0;
+}
+
+.list-item h4 {
+    margin: 30px auto 0 auto;   
+}
+
+.donation {
+    height: 462px;
+    width: 1280px;
+    background: #F6F6F6;
+    box-sizing: border-box;
+    padding: 80px 182px 100px 183px;
+}
+
+.donation-content {
+    height: 282px;
+    width: 915px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.donation-info {
+    height: 282px;
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.donation-info h3 {
+    width: 300px;
+}
+
+h5 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17px;
+    letter-spacing: 00.06em;
     color: #545454;
-    margin: 30px auto 0 auto;
-    
+    width: 308px;
+    margin: 0;
+}
+
+.credit-card {
+    height: 43px;
+    width: 349px;
+    box-sizing: border-box;
+    border-radius: 9px;
+    background: #F1CDB3;
+    padding: 10px 15px;
+
+}
+
+.credit-card-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.legal-information {
+    height: 72px;
+    width: 380px;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #B2B2B2;
 }
