@@ -211,6 +211,7 @@ h3 {
     color: #545454;
     margin: 0;
 }
+
 .about-shelter-content h3 {
     width: 370px;
 }
@@ -447,4 +448,97 @@ h5 {
     font-size: 12px;
     line-height: 18px;
     color: #B2B2B2;
+}
+
+.footer-container {
+    width: 1280px;
+    height: 350px;
+    margin: 0 auto;
+    background: url('../../assets/images/footer-gradient-background.jpg');
+    padding: 40px 40px 0 40px;
+    box-sizing: border-box;
+}
+
+.footer-content {
+    height: 310px;
+    width: 1200px;   
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+}
+
+.footer-content h3 {
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.footer-content a {
+    color: #F1CDB3; 
+    margin: 0;
+}
+
+.contacts {
+    height: 234px;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: baseline;
+    position: relative;
+    top: 16px;
+}
+
+.mail {
+    height: 32px;
+    width: 251px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mail-text {
+    width: 191px;
+    height: 23px;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.phone {
+    height: 32px;
+    width: 240px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.phone-text {
+    width: 180px;
+    height: 23px;
+    align-self: center;
+}
+
+.locations {
+    height: 234px;
+    width: 302px;
+    position: relative;
+    top: 16px;
+}
+
+.location-london, .location-boston {
+    width: 302px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.icon-marker {
+    margin-right: 20px;
+}
+
+.location-boston {
+    margin-top: 34px;
+    margin-bottom: 32px;
 }
