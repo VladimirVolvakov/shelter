@@ -220,9 +220,6 @@ h3 {
     margin-top: 25px;
 }
 
-
-
-
 .pets {
     box-sizing: border-box;
     height: 877px;
@@ -309,4 +306,73 @@ h3 {
     line-height: 22px;
     letter-spacing: 0.06em;
     margin: 10px 0;
+}
+
+.help {
+    box-sizing: border-box;
+    height: 611px;
+    width: 1280px;
+    background: #FFFFFF;
+    padding: 80px 40px 100px 40px;
+}
+
+.help-content {
+    height: 431px;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.help-content h3 {
+    width: 310px;
+    text-align: center;    
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 281px;
+    width: 1026px;
+}
+
+.list-first-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1026px;
+    height: 113px;
+}
+
+.list-second-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 858px;
+    height: 113px;
+}
+
+.list-item {
+    height: 113px;
+    width: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+.list-item .text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    color: #545454;
+    margin: 30px auto 0 auto;
+    
 }
