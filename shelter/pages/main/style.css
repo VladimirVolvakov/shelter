@@ -163,6 +163,7 @@ header .lower-logo {
     border-radius: 100px;
     background: #F1CDB3;
     padding: 15px 0;
+    border: none;
 }
 
 .button-primary a {
@@ -264,4 +265,48 @@ h3 {
     box-sizing: border-box;
     border-radius: 100px;
     background-color: #F6F6F6;
+}
+
+.card {
+    height: 435px;
+    width: 270px;
+    border-radius: 9px;
+    background: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pets-card-title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    color: #545454;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.button-secondary {
+    width: 187px;
+    height: 52px;
+    border-radius: 100px;
+    background: #FFFFFF;
+    padding: 15px auto;
+    border: 2px solid #F1CDB3;
+    box-sizing: border-box;
+}
+
+.button-secondary a {
+    color: #292929;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: 0.06em;
+    margin: 10px 0;
 }
