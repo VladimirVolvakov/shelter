@@ -107,7 +107,7 @@ h4 {
     .header__nav {
         display: flex;
         align-items: center;
-        height: 27px;
+        height: 30px;
     }
     
     .header__nav-menu {
@@ -119,7 +119,7 @@ h4 {
     .header__nav-menu button {
         background: #FFFFFF;
         border: 3px solid #FFFFFF;
-        height: 24px;
+        height: 30px;
         box-sizing: border-box;
         padding: 0;
     }
