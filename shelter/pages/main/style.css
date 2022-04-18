@@ -583,6 +583,16 @@ h2 {
     color: #FFFFFF;
 }
 
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.5rem;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
 .logo-subtitle {
     font-family: 'Arial';
     font-style: normal;
@@ -638,7 +648,6 @@ h2 {
 .button-primary:hover {
     cursor: pointer;
     background: #FDDCC4;
-
     transition: all .3s;
 }
 
@@ -730,5 +739,36 @@ h2 {
         padding: 15px 42px;
         width: 207px;
         height: 52px;
+    }
+
+    .about__container {
+        height: 648px;
+        box-sizing: border-box;
+        padding: 140px 40px 100px 40px;
+        background: #FFFFFF;
+        margin-top: -60px;
+    }
+
+    .about__content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about__content img {
+        margin-right: 120px;
+    }
+
+    .about__content-text {
+        width: 430px;
+    }
+
+    .about__content-header {
+        width: 370px;
+    }
+
+    .about__content-description {
+        color: #4C4C4C;
+        margin-top: 25px;
     }
 }
