@@ -957,6 +957,16 @@ h6 {
         font-size: 2.5rem;
         line-height: 3.2rem;
         letter-spacing: 0.06em;
+        color: #545454;
+    }
+
+    .h3-mobile-white {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2.5rem;
+        line-height: 3.2rem;
+        letter-spacing: 0.06em;
         color: #FFFFFF;
     }
 
@@ -1034,10 +1044,12 @@ h6 {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        align-items: center;
     }
 
     .hero__content-header {
         text-align: center;
+        width: 200px;
     }
 
     .hero__content-text-button {
@@ -1048,16 +1060,16 @@ h6 {
     }
 
     .about__container {
-        height: 1108px;
+        height: 1034px;
         box-sizing: border-box;
-        padding: 140px 166px 100px 166px;
+        padding: 102px 25px 42px 25px;
         background: #FFFFFF;
-        margin-top: -60px;
+        margin-top: -120px;
     }
 
     .about__content {
-        height: 868px;
-        width: 436px;
+        height: 890px;
+        width: 270px;
         display: flex;
         flex-direction: column-reverse;
         justify-content: space-between;
@@ -1065,16 +1077,22 @@ h6 {
     }
 
     .about__content-text {
-        width: 430px;
+        width: 270px;
     }
 
     .about__content-header {
-        width: 370px;
+        text-align: center;
+        color: #545454;
     }
 
     .about__content-description {
         color: #4C4C4C;
         margin-top: 25px;
+        text-align: justify;
+    }
+
+    .about__picture {
+        height: 353px;
     }
 
     .pets__container {
