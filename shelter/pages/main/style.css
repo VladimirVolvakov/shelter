@@ -653,7 +653,7 @@ h6 {
     .pets__container {
         height: 877px;
         box-sizing: border-box;
-        padding: 80px 40px 100px 40px;
+        padding: 80px 30px 100px 30px;
         background: #F6F6F6;
     }
 
@@ -673,14 +673,14 @@ h6 {
     }
 
     .pets__slider {
-        width: 1200px;
+        width: 708px;
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
 
     .pets__slider-content {
-        width: 990px;
+        width: 580px;
         display: flex;
         justify-content: space-between;
     }
@@ -714,6 +714,10 @@ h6 {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    .pets__slider-card:nth-child(3) {
+        display: none;
     }
     
     .pets__slider-card:hover {
