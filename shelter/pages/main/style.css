@@ -110,13 +110,24 @@ h6 {
     color: #B2B2B2;
 }
 
-.link, .paragraph-l {
+.paragraph-l {
     font-family: 'Arial';
     font-style: normal;
     font-weight: 400;
     font-size: 1.5rem;
     line-height: 160%;
     color: #CDCDCD;
+
+}
+
+.link {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 160%;
+    color: #CDCDCD;
+    border-bottom: 3px solid rgba(0, 0, 0, 0);
 }
 
 .link:hover {
@@ -126,6 +137,7 @@ h6 {
 
 .link_active {
     color: #FAFAFA;
+    border-bottom: 3px solid #F1CDB3;
 }
 
 .button-primary {
@@ -197,23 +209,10 @@ h6 {
     }
 
     .header__nav-menu {
-        height: 32px;
+        height: 27px;
         width: 443px;
         display: flex;
         justify-content: space-between;
-    }
-
-    .header__nav-menu .button {
-        background: #262323;
-        border: 3px solid #262323;
-        height: 32px;
-        box-sizing: border-box;
-        padding: 2px 0;
-        vertical-align: center;
-    }
-
-    .header__nav-menu .button_active {
-        border-bottom: 3px solid #F1CDB3;
     }
 
     .hero__container {
