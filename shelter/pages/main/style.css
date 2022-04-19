@@ -582,12 +582,13 @@ h6 {
         background: url('../../assets/images/start-screen-gradient-background.jpg') no-repeat center center fixed;
         background-size: cover;
         position: relative;
-        top: -90px;
+        top: -60px;
     }
 
     .hero__content {
         height: 1015px;
         width: 568px;
+        box-sizing: border-box;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -597,6 +598,7 @@ h6 {
     .hero__content img {
         position: relative;
         left: 70px;
+        height: 593px;
     }
 
     .hero__content-text {
@@ -619,21 +621,20 @@ h6 {
     }
 
     .about__container {
-        height: 648px;
+        height: 1108px;
         box-sizing: border-box;
-        padding: 140px 40px 100px 40px;
+        padding: 140px 166px 100px 166px;
         background: #FFFFFF;
         margin-top: -60px;
     }
 
     .about__content {
+        height: 868px;
+        width: 436px;
         display: flex;
-        justify-content: center;
+        flex-direction: column-reverse;
+        justify-content: space-between;
         align-items: center;
-    }
-
-    .about__content img {
-        margin-right: 120px;
     }
 
     .about__content-text {
