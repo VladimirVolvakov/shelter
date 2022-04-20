@@ -968,6 +968,16 @@ h6 {
         color: #FFFFFF;
     }
 
+    .h5-mobile {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.5rem;
+        line-height: 1.7rem;
+        letter-spacing: 0.06em;
+        color: #545454;
+    }
+
     .paragraph-l-mobile {
         text-align: center;
     }
@@ -1190,14 +1200,14 @@ h6 {
     }
 
     .help__container {
-        height: 779px;
+        height: 745px;
         box-sizing: border-box;
-        padding: 80px 69px 100px 69px;
+        padding: 42px 15px;
         background: #FFFFFF;
     }
 
     .help__content {
-        height: 599px;
+        height: 661px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -1205,15 +1215,14 @@ h6 {
     }
 
     .help__content-header {
-        width: 310px;
-        display: flex;
+        width: 222px;
         align-items: center;
         text-align: center;
     }
     
     .help__content-list {
-        height: 449px;
-        width: 630px;
+        height: 555px;
+        width: 290px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -1231,29 +1240,27 @@ h6 {
     .help__content-list-adaptive-768 {
         display: flex;
         flex-wrap: wrap;
-        width: 630px;
+        justify-content: space-between;
+        align-content: space-between;
+        width: 290px;
+        height: 555px;
     }
 
     .help__content-list-item {
-        height: 113px;
-        width: 170px;
+        height: 87px;
+        width: 130px;
         display: flex;
         flex-direction: column;
         justify-content: end;
         align-items: center;
-        margin: 0px 60px 55px 0;
-    }
-
-    .help__content-list-item:nth-child(3), .help__content-list-item:nth-child(6), .help__content-list-item:nth-child(9) {
-        margin-right: 0;
-    }
-
-    .help__content-list-item:nth-child(7), .help__content-list-item:nth-child(8), .help__content-list-item:nth-child(9) {
-        margin-bottom: 0;
     }
 
     .help__content-list-item-text {
-        margin-top: 30px;
+        margin-top: 20px;
+    }
+
+    .help__picture {
+        height: 50px;
     }
 
     .donation__container {
