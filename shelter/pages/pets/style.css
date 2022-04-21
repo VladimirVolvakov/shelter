@@ -66,7 +66,12 @@ h4 {
     box-sizing: border-box;
 }
     
-.header__container {
+.header {
+    position: sticky;
+    top: 0;
+}
+
+.header__container {  
     height: 120px;
     background: #FFFFFF;
     display: flex;
