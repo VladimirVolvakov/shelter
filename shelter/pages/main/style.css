@@ -314,7 +314,35 @@ h6 {
     .pets__slider-content {
         width: 990px;
         display: flex;
-        justify-content: space-between;
+        /* justify-content: space-between; */
+        position: relative;
+        left: -990px;
+    }
+
+    .pets__slider-content-wrapper {
+        display: flex;
+        width: 990px;
+        overflow: hidden;
+    }
+
+    @keyframes move-left {
+        from {left: -990px;}
+        to {left: -660px;}
+    }
+
+    .transition-left {
+        animation-name: move-left;
+        animation-duration: 1s;
+    }
+
+    @keyframes move-right {
+        from {left: -990px;}
+        to {left: -1320px;}
+    }
+
+    .transition-right {
+        animation-name: move-right;
+        animation-duration: 1s;
     }
     
     .pets__slider-button-arrow {
@@ -346,6 +374,7 @@ h6 {
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin: 0 30px;
     }
     
     .pets__slider-card:hover {
