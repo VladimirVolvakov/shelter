@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cozy House - Shelter for pets in Boston</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    
 </head>
 <body>
     <header class="header">
@@ -115,42 +115,107 @@
                 <div class="pets__content">
                     <h3 class="pets__content-header h3-mobile">Our friends who<br>are looking for a house</h3>
                     <div class="pets__slider">
-                        <button class="pets__slider-button-arrow">
+                        <button id="button-left" class="pets__slider-button-arrow">
                             <img src="../../assets/icons/arrow_left.png" alt="Previous">
                         </button>
-                        <div class="pets__slider-content">
-                            <div class="pets__slider-card">
-                                <img 
-                                    src="../../assets/images/pets-katrine.jpg" 
-                                    alt="Cat Katrine" 
-                                >
-                                <h4 class="pets__slider-card-title">Katrine</h4>
-                                <button class="button-secondary pets__slider-card-button"><p class="button-text">
-                                    Learn more
-                                </p></button>
-                            </div>
-                            <div class="pets__slider-card">
-                                <img 
-                                    src="../../assets/images/pets-jennifer.jpg" 
-                                    alt="Puppet Jennifer"
-                                >
-                                <h4 class="pets__slider-card-title">Jennifer</h4>
-                                <button class="button-secondary pets__slider-card-button"><p class="button-text">
-                                    Learn more
-                                </p></button>
-                            </div>
-                            <div class="pets__slider-card">
-                                <img 
-                                    src="../../assets/images/pets-woody.jpg" 
-                                    alt="Dog Woody"
-                                >
-                                <h4 class="pets__slider-card-title">Woody</h4>
-                                <button class="button-secondary pets__slider-card-button"><p class="button-text">
-                                    Learn more
-                                </p></button>
+                        <div class="pets__slider-content-wrapper" id="carousel-wrapper">
+                            <div class="pets__slider-content" id="carousel">
+                                <div class="pets__slider-card">
+                                    <img 
+                                        src="../../assets/images/pets-katrine.jpg" 
+                                        alt="Cat Katrine" 
+                                    >
+                                    <h4 class="pets__slider-card-title">Katrine</h4>
+                                    <button class="button-secondary pets__slider-card-button"><p class="button-text">
+                                        Learn more
+                                    </p></button>
+                                </div>
+                                <div class="pets__slider-card">
+                                    <img 
+                                        src="../../assets/images/pets-jennifer.jpg" 
+                                        alt="Puppet Jennifer"
+                                    >
+                                    <h4 class="pets__slider-card-title">Jennifer</h4>
+                                    <button class="button-secondary pets__slider-card-button"><p class="button-text">
+                                        Learn more
+                                    </p></button>
+                                </div>
+                                <div class="pets__slider-card">
+                                    <img 
+                                        src="../../assets/images/pets-woody.jpg" 
+                                        alt="Dog Woody"
+                                    >
+                                    <h4 class="pets__slider-card-title">Woody</h4>
+                                    <button class="button-secondary pets__slider-card-button"><p class="button-text">
+                                        Learn more
+                                    </p></button>
+                                </div>
+    
+    
+                                <div class="pets__slider-card">
+                                    <img 
+                                        src="../../assets/images/pets-sophia.jpg" 
+                                        alt="Puppet Sophia"
+                                    >
+                                    <h4 class="pets__slider-card-title">
+                                        Sophia
+                                    </h4>
+                                    <button class="button-secondary pets__slider-card-button"><p class="button-text">
+                                        Learn more
+                                    </p></button>
+                                </div>
+                                <div class="pets__slider-card">
+                                    <img 
+                                        src="../../assets/images/pets-timmy.jpg" 
+                                        alt="Cat Timmy"
+                                    >
+                                    <h4 class="pets__slider-card-title">
+                                        Timmy
+                                    </h4>
+                                    <button class="button-secondary pets__slider-card-button"><p class="button-text">
+                                        Learn more
+                                    </p></button>
+                                </div>
+                                <div class="pets__slider-card">
+                                    <img 
+                                        src="../../assets/images/pets-charly.jpg" 
+                                        alt="Dog Charly"
+                                    >
+                                    <h4 class="pets__slider-card-title">
+                                        Charly
+                                    </h4>
+                                    <button class="button-secondary pets__slider-card-button"><p class="button-text">
+                                        Learn more
+                                    </p></button>
+                                </div>
+                                <div class="pets__slider-card">
+                                    <img 
+                                        src="../../assets/images/pets-scarlet.jpg" 
+                                        alt="Puppet Scarlett" 
+                                    >
+                                    <h4 class="pets__slider-card-title">
+                                        Scarlett
+                                    </h4>
+                                    <button class="button-secondary pets__slider-card-button"><p class="button-text">
+                                        Learn more
+                                    </p></button>
+                                </div>
+                                <div class="pets__slider-card">
+                                    <img 
+                                        src="../../assets/images/pets-freddie.jpg" 
+                                        alt="Kitten Freddie"
+                                    >
+                                    <h4 class="pets__slider-card-title">
+                                        Freddie
+                                    </h4>
+                                    <button class="button-secondary pets__slider-card-button"><p class="button-text">
+                                        Learn more
+                                    </p></button>
+                                </div>
                             </div>
                         </div>
-                        <button class="pets__slider-button-arrow">
+                        
+                        <button class="pets__slider-button-arrow" id="button-right">
                             <img src="../../assets/icons/arrow_right.png" alt="Next">
                         </button>
                     </div>
@@ -475,5 +540,7 @@
             </div>
         </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
